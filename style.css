@@ -4,8 +4,18 @@ header{
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
+    padding: 16px;
 }
 
 main{
-    background-color:#5c2e2e ;
+    background-color:#d410fc ;
+    color: #440eda
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
 }
