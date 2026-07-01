@@ -1,7 +1,11 @@
 header{
-    background-color: #e90b0b;
+    background-color: #663a3a;
     color: #dfd6d6;
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
+}
+
+main{
+    background-color:#5c2e2e ;
 }
