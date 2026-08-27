@@ -1,55 +1,59 @@
 body {
-    font-family: Arial, Helvetica, sans-serif; /* Fonte universal herdada por todo o site */
-    margin: 0;                                 /* Remove margens padrão do navegador */
+    margin: 0;
     padding: 0;
-}
-header {
-    background-color: #03ecae; /* cor de fundo */
-    color: #290ab6; /* cor da fonte */
-    text-align: center; /* centraliza o texto horizontalmente */
-    max-width: 800px; /* define a largura máxima que o elemento pode ter */
-    margin: 0 auto; /* centraliza o bloco inteiro na tela */
-    padding: 16px; /* espaçamento interno entre a borda e o conteúdo */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte universal herdada por todo o site */
 }
 
-h1{
+header {
+    background-color: #64cbc5; /* Cor de fundo */
+    color: #000; /* Cor da fonte */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    max-width: 800px; /* Define a largura máxima que o elemento pode ter */
+    margin: auto; /* Centraliza o bloco inteiro na tela */
+    padding: 10px; /* Espaçamento interno entre a borda e o conteúdo */
+}
+
+h1 {
     color: #17048f;
 }
 
-main{
-    background-color: #230a7e;
+main {
+    background-color: #e2e7cc;
     color: #013005;
     max-width: 800px;
     margin: 0 auto;
     padding: 16px;
 }
+
 article {
     display: flex;
-    margin-bottom: 60px; /* Empurra o artigo de baixo, criando o espaço */
+    margin-bottom: 6px; /* Empurra o artigo de baixo, criando espaço */
 }
 
-img{
-    width: 150px; /* define a largura fixa da imagem */
-    height: 150px; /* define a altura fixa da imagem */
-    border: 2px solid #17048f; /* adiciona uma borda sólida de 2px na cor azul/roxa */
-    display: block; /* transforma a imagem em um bloco para aceitar margens verticais e quebra de linha */
-    margin: 0 auto; /* centraliza a imagem horizontalmente na tela */
-    align-self: center;
+img {
+    width: 150px; /* Define a largura fixa da imagem */
+    height: 151px; /* Define a altura fixa da imagem */
+    border: 2px solid #1704af; /* Adiciona uma borda sólida de 2px */
+    display: block; /* Transforma a imagem em um bloco para aceitar margens verticais */
+    margin: 0 auto;
+    align-self: center; /* Centraliza a imagem horizontalmente na tela */
 }
 
 .artigo-autor {
-    font-weight: bold; /* deixa o texto em negrito */
+    font-weight: bold; /* Deixa o texto em negrito */
 }
 
 .texto-curto {
-    max-width: 65ch; /* Limita a linha a cerca de 45 caracteres */
+    max-width: 65ch; /* Limita a linha a cerca de 65 caracteres */
 }
+
 footer {
-    background-color: #b4cbc5; /* Mesma cor escura do texto do header para combinar */
-    color: #013005;            /* Cor da fonte branca para dar contraste e leitura */
-    text-align: center;        /* Centraliza o texto horizontalmente */
-    max-width: 800px;          /* Mantém o mesmo alinhamento do header e do main */
-    margin: 0 auto;            /* Centraliza o bloco inteiro na tela */
-    padding: 20px;             /* Cria um espaçamento interno para o fundo aparecer bem */
-    font-size: 14px;           /* Deixa o texto do rodapé um pouco menor e discreto */
+    background-color: #64cbc5; /* Mesma estrutura do texto do header para combinar */
+    color: #013005; /* Cor da fonte */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    max-width: 800px; /* Mantém o mesmo alinhamento do header e do main */
+    margin: 0 auto; /* Centraliza o bloco inteiro na tela */
+    padding: 20px; /* Cria um espaçamento interno para o fundo aparecer bem */
+    font-size: 14px; /* Deixa o texto do rodapé um pouco menor e discreto */
 }
+
